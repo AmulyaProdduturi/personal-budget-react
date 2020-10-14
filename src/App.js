@@ -32,7 +32,7 @@ function App() {
          </Route>
        </Switch>
      </div>
-     <HomePage/>
+    
      <Footer/>
     </Router>
   );

@@ -10,9 +10,9 @@ function Menu() {
         <header>
         
         <ul>
-            <li><Link to ="" rel="nofollow" title="visit my home page" >Home</Link></li>
-            <li><Link to ="./about"  title="visit my about page">About</Link></li>
-            <li ><Link to ="./login" title="visit my login page" >Login</Link></li>
+            <li><Link to ="" >Home</Link></li>
+            <li><Link to ="/about" >About</Link></li>
+            <li ><Link to ="/login">Login</Link></li>
         </ul>
          
         </header>
