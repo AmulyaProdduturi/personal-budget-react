@@ -1,5 +1,6 @@
 import React from 'react';
 import AxiosPie from '../AxiosPie/AxiosPie'
+import PieChart from '../PieChart/PieChart'
 
 
 function HomePage() {
@@ -74,7 +75,14 @@ function HomePage() {
                 <p style={{height:"500px",width:"500px"}}>
                     <AxiosPie />
                 </p>
-            </article>                 
+            </article>  
+
+            <article>
+                <h1><center>D3JS Chart </center></h1>
+                <p style={{height:"500px",width:"500px"}}>
+                   <PieChart/>
+                </p>
+            </article>               
 
         </div>
 

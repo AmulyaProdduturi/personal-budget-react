@@ -9,6 +9,7 @@ import Footer from './Footer/Footer'
 import LoginPage from './LoginPage/LoginPage';
 import AboutPage from './AboutPage/AboutPage';
 import AxiosPie from './AxiosPie/AxiosPie';
+import PieChart from './PieChart/PieChart';
 
 import {
   BrowserRouter as Router,

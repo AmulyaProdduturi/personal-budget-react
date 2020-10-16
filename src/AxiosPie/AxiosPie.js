@@ -13,7 +13,7 @@ const AxiosPie = () =>{
         Axios.get("http://localhost:5000/budget")
              .then(res =>{
                  console.log(res);
-                 for(const dataObj of res.data){
+                 for(const dataObj of res.data.myBudget){
                     empTitle.push(dataObj.title);
                     empBudget.push(dataObj.budget);
                  }
@@ -21,7 +21,7 @@ const AxiosPie = () =>{
                     labels : empTitle,
                     datasets : [
                         {
-                            label : 'Budget Distirbution',
+                            label : 'Budget data',
                             data : empBudget,
                             backgroundColor : [
                                                 '#ffcd56',
