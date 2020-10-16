@@ -20,7 +20,7 @@ function PieChart(props) {
 
   const colorScale = d3
     .scaleSequential()
-    .interpolator(d3.interpolateCool)
+    .interpolator(d3.interpolateWarm)
     .domain([0, data.length]);
 
   useEffect(() => {

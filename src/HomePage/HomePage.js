@@ -75,7 +75,7 @@ function HomePage() {
                 <p style={{height:"500px",width:"500px"}}>
                     <AxiosPie />
                 </p>
-            </article>  
+            </article>
 
             <article>
                 <h1><center>Dount Chart using D3JS </center></h1>
