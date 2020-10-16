@@ -78,7 +78,7 @@ function HomePage() {
             </article>  
 
             <article>
-                <h1><center>D3JS Chart </center></h1>
+                <h1><center>Dount Chart using D3JS </center></h1>
                 <p style={{height:"500px",width:"500px"}}>
                    <PieChart/>
                 </p>
